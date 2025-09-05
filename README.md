@@ -12,17 +12,19 @@ Transform raw **CSV** data into **JSON** using **AWS Glue (Crawler + ETL Job)**.
 ---
 
 ## 📂 Project Structure  
+
+```bash
 AWS-GLUE-ETL-PROJECT-CSV-JSON/
-│
 ├── source/
-│ └── country_economic.csv # raw input file
+│   └── country_economic.csv   # raw input file
 │
-├── target/ # processed output (JSON files generated here)
+├── target/                    # processed output (JSON files generated here)
 │
 ├── scripts/
-│ └── country_gdp_json.py # AWS Glue auto-generated PySpark script
+│   └── country_gdp_json.py    # AWS Glue auto-generated PySpark script
 │
-└── README.md # project documentation
+└── README.md                  # project documentation
+'''
 
 
 ---
